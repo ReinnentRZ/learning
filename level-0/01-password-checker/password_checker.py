@@ -6,10 +6,7 @@ def checkdigit(user_input):
 
 
 def checklen(user_input):
-    if len(user_input) >= 8:
-        return True
-    else:
-        return False
+    return len(user_input) >= 8
 
 
 def check_password(user_input):
@@ -17,12 +14,3 @@ def check_password(user_input):
         return "password kuat"
     else:
         return "password lemah"
-
-
-
-while True:
-    user_input = input("Masukkan Password: ")
-    if user_input == 'q':
-        break
-
-    print(check_password(user_input))
