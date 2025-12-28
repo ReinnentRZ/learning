@@ -1,0 +1,4 @@
+# config.txt
+db_user=admin
+db_password=supersecret
+jwt_token=eyJhbGciOi
